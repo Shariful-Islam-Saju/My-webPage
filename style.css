@@ -40,7 +40,6 @@ body {
 }
 
 .features {
-    background-color: rgb(158, 200, 185);
     padding: 5% 4%;
 }
 
@@ -61,6 +60,20 @@ body {
 }
 
 .free:hover {
-    box-shadow: 2px 3px 3px black;
+    box-shadow: 4px 4px 4px black;
     transform: scale(1.04);
+}
+
+.about {
+    font-weight: bold;
+}
+
+.dotted {
+    border: dotted 8px;
+    width: 150px; 
+    border-bottom: none;
+}
+
+.room h4 {
+    font-weight: bold;
 }
