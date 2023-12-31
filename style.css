@@ -5,6 +5,7 @@
     margin: 0;
     font-family: Playpen sans, sans-serif, Helvetica, sans-serif;
     box-sizing: border-box;
+    background-color: transparent;
 }
 
 #navar {
@@ -13,11 +14,22 @@
 }
 
 body {
-    background-image: url(https://images.pexels.com/photos/2041540/pexels-photo-2041540.jpeg?auto=compress&cs=tinysrgb&w=600);
-    background-repeat: no-repeat;
-    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    position: relative;;
 }
 
+#particles-js {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    z-index: -1;
+}
 .learn {
     height: 90vh;
     margin-top: 60px;
