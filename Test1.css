@@ -201,7 +201,7 @@ h2 {
     }
 
     100% {
-        transform: scale(5.3) translateY(-90px) rotate(720deg);
+        transform: scale(5.3) translateY(90px) rotate(720deg);
         opacity: 0;
     }
 }
@@ -213,7 +213,7 @@ h2 {
     }
 
     100% {
-        transform: scale(2.5) translateY(-90px) rotate(360deg);
+        transform: scale(2.5) translateY(90px) rotate(360deg);
         opacity: 0;
     }
 }
